@@ -5,6 +5,23 @@ import datetime
 import mmap
 import re
 
+# PDF Version Recovery Tool
+# ------------------------
+# A GUI application that helps recover different versions of PDF files by scanning for multiple EOF markers.
+
+# Created by: helpdesk8675
+
+# Features:
+# - GUI interface for selecting input/output folders
+# - Processes multiple PDF files in batch
+# - Detects and extracts multiple versions from PDF files
+# - Progress tracking and status updates
+# - Error handling for common issues
+
+# Requirements:
+# - Python 3.x
+# - tkinter
+
 class PDFRecoveryGUI:
     def __init__(self, root):
         self.root = root
